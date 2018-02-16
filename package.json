@@ -1,0 +1,14 @@
+{
+  "name": "ningmengapi",
+  "version": "0.1.4",
+  "description": "A API for Ayaka Networks",
+  "main": "app.js",
+  "repository": "https://github.com/nekomeowww/NingmengAPI",
+  "author": "Ayaka Neko <neko@ayaka.moe>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "redis": "^2.8.0"
+  }
+}
