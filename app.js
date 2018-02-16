@@ -12,7 +12,7 @@ const app = new Koa();
 
 // response
 app.use(ctx => {
-  ctx.body = 'Hello Koa';
+  ctx.body = {data: "Ningmeng API /", version: "v1", info: "Hello! This is Ningmeng API"};  
 });
 
 app.listen(4000);
