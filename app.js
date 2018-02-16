@@ -15,4 +15,4 @@ app.use(ctx => {
   ctx.body = {data: "Ningmeng API /", version: "v1", info: "Hello! This is Ningmeng API"};  
 });
 
-app.listen(4000);
+app.listen(config.port);
